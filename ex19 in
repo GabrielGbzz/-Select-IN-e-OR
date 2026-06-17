@@ -1,0 +1,4 @@
+SELECT *
+FROM OrderDetails
+WHERE OrderID IN (100, 200, 300)
+ORDER BY Quantity;
