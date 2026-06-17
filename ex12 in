@@ -1,0 +1,4 @@
+SELECT *
+FROM OrderDetails
+WHERE ProductID IN (11, 21, 31)
+ORDER BY OrderDetailID;
