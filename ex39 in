@@ -1,0 +1,4 @@
+SELECT *
+FROM OrderDetails
+WHERE Quantity IN (8, 16, 24, 32)
+ORDER BY OrderID;
