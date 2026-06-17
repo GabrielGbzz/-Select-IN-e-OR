@@ -1,0 +1,4 @@
+SELECT *
+FROM OrderDetails
+WHERE ProductID IN (13, 26, 39)
+ORDER BY Quantity;
