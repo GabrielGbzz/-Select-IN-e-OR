@@ -1,0 +1,4 @@
+SELECT *
+FROM OrderDetails
+WHERE ProductID IN (2, 4, 6, 8)
+ORDER BY OrderDetailID;
