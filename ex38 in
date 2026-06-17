@@ -1,0 +1,4 @@
+SELECT *
+FROM OrderDetails
+WHERE OrderID IN (90, 180, 270)
+ORDER BY ProductID;
